@@ -1,0 +1,28 @@
+.nodeBG {
+	stroke-width: 2px;
+}
+
+.nodeControls {
+	font: 14px/16px "Helvetica", "Arial", "Helvetica Neue", sans-serif;
+	cursor: default;
+}
+
+.link {
+	fill: none;
+	stroke: black;
+}
+
+text.ellipsis {
+	-ms-text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+text.header {
+	font: 28px/32px 'Times New Roman', serif;
+}
+
+svg {
+	cursor: move;
+}
